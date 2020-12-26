@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/png" href="./pics/asas-removebg-preview.png" />
+    <title>Quiz_sample | ieee</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+    <div class="grid" id="grid">
+        <div id="quiz">
+            <h1>Quiz_Sample</h1>
+            <hr style="margin-bottom: 20px">
+            <div id="count">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;---</div>
+            <p id="question"></p>
+
+
+            <div class="buttons">
+                <button id="btn0" class="button"><span id="choice0"></span></button>
+                <button id="btn1" class="button"><span id="choice1"></span></button>
+                <button id="btn2" class="button"><span id="choice2"></span></button>
+                <button id="btn3" class="button"><span id="choice3"></span></button>
+            </div>
+
+            <hr style="margin-top: 50px">
+            <footer>
+                <p id="progress">Question x of y</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="./scripts/quiz.js"></script>
+    <script src="./scripts/app.js"></script>
+</body>
+
+</html>
